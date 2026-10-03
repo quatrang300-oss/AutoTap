@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acc_desc">AutoTap dùng quyền Trợ năng để tự động chạm/vuốt, phát lại các combo bạn đã ghi, đọc phím vật lý bạn gán và chụp màn hình để nhận diện hình ảnh. Mọi dữ liệu chỉ lưu trên máy, không gửi đi đâu.</string>
+    <string name="save">Lưu</string>
+    <string name="delete">Xóa</string>
+    <string name="cancel">Hủy</string>
+    <string name="close">Đóng</string>
+    <string name="name">Tên</string>
+    <string name="delete_q">Xóa \"%1$s\"?</string>
+    <string name="need_service">Hãy bật dịch vụ Trợ năng AutoTap trước</string>
+    <string name="err_dialog">Không mở được hộp thoại</string>
+    <string name="sec_permissions">1. Quyền &amp; giao diện nổi</string>
+    <string name="btn_open_access">Mở cài đặt Trợ năng</string>
+    <string name="btn_app_info">Không bật được? Mở thông tin ứng dụng</string>
+    <string name="toast_access_hint">Tìm \"AutoTap\" trong danh sách (có thể ở mục Ứng dụng đã cài đặt) và bật lên</string>
+    <string name="err_open_access">Không mở được cài đặt Trợ năng</string>
+    <string name="toast_restricted_hint">Bấm ⋮ (góc trên) → \"Cho phép chế độ cài đặt bị hạn chế\", rồi quay lại bật Trợ năng</string>
+    <string name="status_on">✅ Dịch vụ Trợ năng đang BẬT</string>
+    <string name="status_off">⚠️ Dịch vụ Trợ năng đang TẮT — bấm nút bên dưới và bật \"AutoTap\".</string>
+    <string name="btn_ui_on">Bật giao diện nổi</string>
+    <string name="btn_ui_off">Tắt giao diện nổi</string>
+    <string name="lang_title">Ngôn ngữ</string>
+    <string name="lang_system">Theo hệ thống</string>
+    <string name="sec_buttons">2. Nút combo &amp; bảng điều khiển</string>
+    <string name="preview_desc">Xem trước nút</string>
+    <string name="size_label">Kích thước nút combo: %1$d dp</string>
+    <string name="alpha_label">Độ hiển thị nút combo: %1$d%%</string>
+    <string name="alpha_label_invisible" formatted="false">Độ hiển thị nút combo: 0% (tàng hình)</string>
+    <string name="bar_label">Kích thước bảng điều khiển: %1$d dp</string>
+    <string name="edge_switch">Vuốt từ cạnh TRÁI để mở danh sách combo (tắt = cạnh phải)</string>
+    <string name="pos_hint" formatted="false">Vị trí: kéo trực tiếp từng nút combo và bảng điều khiển trên màn hình (vị trí được ghi nhớ). Độ hiển thị 0% = nút tàng hình.</string>
+    <string name="btn_reset_pos">Đặt lại vị trí mặc định</string>
+    <string name="reset_done">Đã đặt lại vị trí nút combo và bảng điều khiển</string>
+    <string name="sec_combos">3. Combo (công tắc = hiện nút; chạm để chỉnh)</string>
+    <string name="empty_combos">Chưa có combo. Trên bảng điều khiển nổi: bấm ● để ghi combo, hoặc ＋ để thêm điểm auto click.</string>
+    <string name="sec_images">4. Nhận diện hình ảnh</string>
+    <string name="btn_watch_on">Bật theo dõi hình ảnh</string>
+    <string name="btn_watch_off">Tắt theo dõi hình ảnh</string>
+    <string name="no_enabled_images">Chưa có hình mẫu nào đang bật</string>
+    <string name="scan_label">Chu kỳ quét màn hình: %1$d ms (nhỏ = phản ứng nhanh hơn, tốn pin hơn)</string>
+    <string name="empty_images">Chưa có hình mẫu. Trên bảng điều khiển nổi, bấm nút khoanh vùng (✂) để chụp màn hình và chọn hình cần nhận diện.</string>
+    <string name="trigger_sub">Tại (%1$d, %2$d) %3$d×%4$d · giống ≥ %5$d%% · %6$s</string>
+    <string name="action_click_img">click vào hình</string>
+    <string name="action_run">chạy \"%1$s\"</string>
+    <string name="image_template">Hình mẫu</string>
+    <string name="when_seen">Khi thấy hình thì</string>
+    <string name="click_center">Click vào giữa hình ảnh</string>
+    <string name="run_combo">Chạy combo: %1$s</string>
+    <string name="threshold_label">Độ giống tối thiểu: %1$d%%  (cao = chính xác hơn, thấp = dễ nhận hơn)</string>
+    <string name="margin_label">Sai lệch vị trí cho phép quanh vùng đã chọn (px)</string>
+    <string name="cooldown_label">Chờ trước khi được kích hoạt lại (ms)</string>
+    <string name="enabled_label">Đang bật</string>
+    <string name="sec_guide">Hướng dẫn nhanh</string>
+    <string name="guide" formatted="false">• Bật Trợ năng cho AutoTap (mục 1). Giao diện nổi sẽ xuất hiện trên mọi ứng dụng / trò chơi.\n\n• NÚT COMBO: mỗi combo đang bật có một nút tròn riêng, đánh số theo danh sách. Chạm = chạy / dừng. Kéo = di chuyển. Giữ lâu = chỉnh nhanh combo (tốc độ, vòng lặp, phím vật lý…).\n\n• VUỐT TỪ CẠNH MÀN HÌNH (mặc định cạnh phải, có vạch mờ nhỏ) vào trong để mở DANH SÁCH COMBO: bật/tắt bảng điều khiển, bật/tắt từng nút combo, chỉnh combo, đổi kích thước &amp; độ hiển thị — không cần thoát trò chơi.\n\n• BẢNG ĐIỀU KHIỂN (thanh công cụ):\n  ● Ghi combo: bấm rồi thao tác bình thường (chạm, giữ, vuốt), bấm ■ để dừng &amp; lưu. Thao tác từ tốn, cách nhau khoảng 0,1 giây.\n  ＋ / − Thêm / bớt điểm auto click. Kéo dấu tròn đến chỗ cần click, giữ lâu dấu tròn để xóa.\n  ✂ Chụp màn hình &amp; khoanh vùng hình ảnh cần nhận diện.\n  👁 Bật / tắt nhận diện hình ảnh (nút xanh = đang theo dõi).\n  ☰ Mở danh sách combo · ⌂ Mở app · ✕ Ẩn bảng điều khiển (nút combo vẫn ở lại).\n\n• PHÍM VẬT LÝ: chạm vào một combo → \"Gán phím\" → nhấn phím (ví dụ tăng/giảm âm lượng) → chọn kiểu bấm (1 lần / đúp / giữ lâu) → Lưu. Phím hoạt động cả khi đã tắt giao diện nổi.\n\n• Độ hiển thị nút combo 0% = tàng hình (vẫn bấm được). Khi đang mở bảng điều khiển, nút tàng hình hiện mờ để bạn thấy và kéo.</string>
+    <string name="bar_drag">Kéo để di chuyển bảng điều khiển</string>
+    <string name="bar_record">Ghi combo mới</string>
+    <string name="bar_add">Thêm điểm auto click</string>
+    <string name="bar_remove">Xóa điểm auto click cuối</string>
+    <string name="bar_capture">Chụp &amp; khoanh vùng hình ảnh cần nhận diện</string>
+    <string name="bar_watch">Bật/tắt nhận diện hình ảnh</string>
+    <string name="bar_list">Danh sách combo</string>
+    <string name="bar_home">Mở ứng dụng AutoTap</string>
+    <string name="bar_hide">Ẩn bảng điều khiển (nút combo vẫn giữ lại)</string>
+    <string name="edge_left">trái</string>
+    <string name="edge_right">phải</string>
+    <string name="toast_bar_hidden">Đã ẩn bảng điều khiển. Nút combo vẫn hoạt động. Vuốt từ cạnh %1$s màn hình vào để mở danh sách combo.</string>
+    <string name="combo_desc">Combo %1$s</string>
+    <string name="default_combo_name">Combo %1$d</string>
+    <string name="points_name">Auto click</string>
+    <string name="points_name_n">Auto click %1$d</string>
+    <string name="default_image_name">Hình %1$d</string>
+    <string name="toast_recording">Đang ghi combo… Thao tác bình thường, bấm ■ trên bảng điều khiển để dừng &amp; lưu.</string>
+    <string name="toast_saved_combo">Đã lưu \"%1$s\" (%2$d thao tác). Nút combo số %3$d đã hiện trên màn hình.</string>
+    <string name="toast_nothing_recorded">Chưa ghi được thao tác nào</string>
+    <string name="toast_point_hint">Kéo dấu tròn đến vị trí cần click. Giữ lâu dấu tròn để xóa. Bấm nút combo \"%1$s\" để chạy.</string>
+    <string name="toast_points_created">Đã tạo \"%1$s\". Bấm ＋ trên bảng điều khiển để thêm điểm click.</string>
+    <string name="toast_no_points">Chưa có điểm auto click nào</string>
+    <string name="toast_watch_off">Đã tắt nhận diện hình ảnh</string>
+    <string name="toast_no_templates">Chưa có hình mẫu nào. Bấm nút khoanh vùng (✂) trên bảng điều khiển để tạo.</string>
+    <string name="toast_watching">Đang theo dõi %1$d hình mẫu…</string>
+    <string name="err_capture">Không chụp được màn hình, thử lại sau giây lát</string>
+    <string name="err_region">Vùng chọn không hợp lệ</string>
+    <string name="when_seen_title">Khi thấy hình ảnh này thì…</string>
+    <string name="err_save_template">Không lưu được hình mẫu</string>
+    <string name="toast_template_saved">Đã lưu \"%1$s\". Đang theo dõi — khi hình xuất hiện sẽ tự thao tác.</string>
+    <string name="toast_combo_empty">Combo \"%1$s\" chưa có thao tác nào</string>
+    <string name="region_hint">Kéo ngón tay để khoanh vùng hình ảnh cần nhận diện.\nKhi hình này xuất hiện lại ở vị trí đó, thao tác sẽ tự chạy.</string>
+    <string name="region_save">Lưu vùng này</string>
+    <string name="region_too_small">Hãy kéo để chọn một vùng đủ lớn</string>
+    <string name="drawer_title">Combo</string>
+    <string name="drawer_bar">Bảng điều khiển</string>
+    <string name="drawer_bar_sub">Thanh công cụ nổi (ghi combo, thêm điểm, chụp hình…)</string>
+    <string name="drawer_img">Nhận diện hình ảnh</string>
+    <string name="drawer_img_sub">%1$d hình mẫu đang bật</string>
+    <string name="drawer_list">DANH SÁCH COMBO</string>
+    <string name="drawer_list_hint">Bật công tắc để hiện nút combo trên màn hình. Chạm vào tên combo để chỉnh tốc độ, vòng lặp, phím vật lý…</string>
+    <string name="drawer_empty">Chưa có combo nào.</string>
+    <string name="drawer_record">● Ghi combo</string>
+    <string name="drawer_new_points">＋ Auto click</string>
+    <string name="drawer_custom">TÙY CHỈNH</string>
+    <string name="alpha_hint">Khi đang mở bảng điều khiển, nút tàng hình vẫn hiện mờ để bạn thấy và kéo. Ẩn bảng điều khiển thì nút tàng hình hoàn toàn.</string>
+    <string name="edge_left_title">Vuốt từ cạnh trái</string>
+    <string name="edge_left_sub">Tắt = vuốt từ cạnh phải màn hình để mở bảng này</string>
+    <string name="open_app">Mở app AutoTap</string>
+    <string name="ui_off">Tắt giao diện nổi</string>
+    <string name="loops_inf">lặp vô hạn</string>
+    <string name="loops_n">%1$d vòng</string>
+    <string name="desc_recorded">%1$s, tốc độ %2$s · %3$d bước</string>
+    <string name="desc_points">Auto click · %1$d điểm · mỗi %2$d ms · %3$s</string>
+    <string name="key_none">Chưa gán</string>
+    <string name="key_vol_up">Tăng âm lượng</string>
+    <string name="key_vol_down">Giảm âm lượng</string>
+    <string name="key_camera">Phím camera</string>
+    <string name="key_headset">Nút tai nghe</string>
+    <string name="key_playpause">Phát/Tạm dừng</string>
+    <string name="press_single">nhấn 1 lần</string>
+    <string name="press_double">nhấn đúp</string>
+    <string name="press_long">giữ lâu</string>
+    <string name="ed_name">Tên combo</string>
+    <string name="ed_speed">Tốc độ phát lại: %1$s  (≈ %2$s giây/vòng)</string>
+    <string name="ed_longpress_note">Thao tác giữ lâu (long-press) luôn giữ nguyên thời gian giữ.</string>
+    <string name="ed_interval">Khoảng cách giữa các lần click (ms)</string>
+    <string name="ed_tapdur">Thời gian giữ mỗi click (ms)</string>
+    <string name="ed_loops">Số vòng lặp (0 = lặp vô hạn cho tới khi bấm dừng)</string>
+    <string name="ed_loopdelay">Nghỉ giữa các vòng (ms)</string>
+    <string name="ed_show">Hiện nút combo trên màn hình</string>
+    <string name="ed_key_section">PHÍM VẬT LÝ KÍCH HOẠT</string>
+    <string name="ed_key">Phím: %1$s</string>
+    <string name="ed_key_wait">Phím: … hãy nhấn phím vật lý muốn gán</string>
+    <string name="ed_assign">Gán phím</string>
+    <string name="ed_unassign">Bỏ gán</string>
+    <string name="ed_key_note">Có thể gán cùng một phím cho nhiều combo với kiểu bấm khác nhau. Với phím âm lượng, kiểu bấm chưa gán vẫn chỉnh âm lượng như bình thường.</string>
+    <string name="toast_key_got">Đã nhận phím: %1$s. Bấm Lưu để hoàn tất.</string>
+</resources>
