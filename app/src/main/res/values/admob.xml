@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  MÃ QUẢNG CÁO ADMOB
-  Hiện đang dùng MÃ THỬ NGHIỆM của Google (hiện chữ "Test Ad", không có tiền).
-  Khi có tài khoản AdMob, thay 2 dòng dưới bằng mã thật của bạn:
-    - admob_app_id    : App ID dạng ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY
-    - admob_banner_id : Ad unit ID (Biểu ngữ) dạng ca-app-pub-XXXXXXXXXXXXXXXX/ZZZZZZZZZZ
+  MÃ QUẢNG CÁO ADMOB (mã thật của tài khoản AdMob)
+    - admob_app_id    : App ID
+    - admob_banner_id : Ad unit ID (Biểu ngữ / Banner) – màn hình chính
 -->
 <resources>
-    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-9448422299959897~7087584222</string>
+    <string name="admob_banner_id" translatable="false">ca-app-pub-9448422299959897/1128855548</string>
 </resources>
