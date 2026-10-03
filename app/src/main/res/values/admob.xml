@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MÃ QUẢNG CÁO ADMOB (mã thật của tài khoản AdMob)
+    - admob_app_id    : App ID
+    - admob_banner_id : Ad unit ID (Biểu ngữ / Banner) – màn hình chính
+-->
+<resources>
+    <string name="admob_app_id" translatable="false">ca-app-pub-9448422299959897~7087584222</string>
+    <string name="admob_banner_id" translatable="false">ca-app-pub-9448422299959897/1128855548</string>
+    <!-- Mã banner MẪU của Google (chỉ dùng khi bật "chế độ quảng cáo mẫu" để kiểm tra) -->
+    <string name="admob_sample_banner_id" translatable="false">ca-app-pub-3940256099942544/9214589741</string>
+</resources>
